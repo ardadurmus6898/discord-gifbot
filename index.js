@@ -9,7 +9,7 @@ const client = new Client({
 });
 
 const CONFIG = {
-  TOKEN: process.env.DISCORD_TOKEN || 'MTU0NzkzODIyNjc3NjU3MTk0NA.GsgP62.89g5cI4IdeRkx6yZVHBVGwu4JYdcTUm8n9oe8A',
+  TOKEN: process.env.DISCORD_TOKEN || 'DISCORD_TOKEN_BURAYA_GELECEK',
   VOICE_CHANNEL_ID: '1547943697398636655',
   CATEGORIES: [
     {
