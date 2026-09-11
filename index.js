@@ -91,7 +91,7 @@ async function fetchAndPostMedia(category) {
   }
 }
 
-client.once('ready', () => {
+client.once('clientReady', () => {
   console.log(`🤖 ${client.user.tag} aktif!`);
   connectToVoiceChannel();
   CONFIG.CATEGORIES.forEach(category => {
